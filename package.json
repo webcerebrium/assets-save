@@ -1,0 +1,34 @@
+{
+  "name": "assets-save",
+  "version": "1.0.0",
+  "description": "Downloads remote asset-manifest.json from the URL in the first argument with all files declared in it",
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "bin": {
+    "assets-save": "./bin.js"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webcerebrium/assets-save.git"
+  },
+  "keywords": [],
+  "author": "Web Cerebrium <webcerebrium@gmail.com> (https://webcerebrium.com/)",
+  "bugs": {
+    "url": "https://github.com/webcerebrium/assets-save/issues"
+  },
+  "homepage": "https://github.com/webcerebrium/assets-save#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "request": "^2.81.0",
+    "shelljs": "^0.7.8"
+  },
+  "devDependencies": {}
+}
