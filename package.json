@@ -1,6 +1,6 @@
 {
   "name": "assets-save",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Downloads remote asset-manifest.json from the URL in the first argument with all files declared in it",
   "engines": {
     "node": ">=0.6.0"
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/webcerebrium/assets-save#readme",
   "dependencies": {
     "minimist": "^1.2.0",
-    "request": "^2.81.0",
+    "request": "^2.88.0",
     "shelljs": "^0.7.8"
   },
   "devDependencies": {}
