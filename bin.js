@@ -26,6 +26,7 @@ const makeDir = (buildId) => {
 
 const downloadFile = ({ source, destination }) => {
   const cmd = 'wget --check-certificate=off -q ' + source + ' -O ' + destination;
+  // _log(cmd);
   _log(shell.exec(cmd).stdout);  
 };
 
